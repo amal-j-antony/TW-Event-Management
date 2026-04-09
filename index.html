@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -111,11 +112,83 @@
       </div>
     </div>
   </section>
-  <section class="services">
-    
-  </section>
-  <footer>
+  <section class="services px-20">
+    <div class="flex justify-center items-center gap-5">
+      <hr class="bg-black h-1 w-100 my-10">
+      <h1 class="text-4xl font-medium text-center py-10">Our Services</h1>
+      <hr class="bg-black h-1 w-100 my-10">
+    </div>
+   
+    <!-- <p class="text-xl">We have well connected experts all over the world dedicated to crafting your perfect memorable wedding</p> -->
+    <div class="grid grid-cols-3 gap-10">
+      <div class="cardService">
+        <div class="relative">
+          <img src="./MEDIA/service1.jpg" alt="">
+          <h1 class="text-7xl font-bold absolute top-40 left-20 text-white ">Exotic <br> venues</h1>
+        </div>
+        <p>We move beyond the standard ballroom to curate a portfolio of architectural marvels and untouched landscapes. Whether it’s a sustainable luxury camp in the dunes of AlUla, a private cliffside villa in Madeira, or a restored glasshouse in a tropical rainforest, our venues are selected for their "wow" factor and cultural soul. These aren't just backdrops; they are immersive environments that define the atmosphere of your entire celebration.</p>
+      </div>
 
+      <div class="cardService">
+        <div class="relative">
+          <img src="./MEDIA/service2.jpg" alt="">
+          <h1 class="text-7xl font-bold absolute top-20 left-20 text-white ">Bespoke <br> Fleet</h1>
+        </div>
+        <p>Transit is reimagined as an extension of the guest experience rather than a logistical hurdle. Our integrated fleet provides seamless, high-end mobility, from vintage convertible convoys for coastal drives to private catamaran transfers and luxury executive sprinters. By controlling the entire transport chain, we ensure that every guest arrival is punctual, stylish, and entirely friction-free, regardless of how remote the destination.</p>
+      </div>
+
+      <div class="cardService">
+        <div class="relative">
+          <img src="./MEDIA/service3.jpg" alt="">
+          <h1 class="text-7xl font-bold absolute top-60 left-10 text-white ">Hospitality <br> Service</h1>
+        </div>
+        <p>Our approach to service blends predictive technology with high-touch human care. We provide a dedicated "Experience Lead" for every event, overseeing a white-glove team trained to anticipate guest needs before they are voiced. From personalized welcome rituals and 24/7 digital concierge support to managing complex dietary programming with local chefs, our hospitality ensures that both the couple and their guests feel like pampered VIPs in a home away from home.</p>
+      </div>
+    </div>
+  </section>
+  <footer class="mt-10 bg-black text-white px-20">
+    <div class="grid grid-cols-4">
+      <div class="py-10">
+        <h1 class="text-2xl">Regalia</h1>
+        <h2 class="py-3">Event Management</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251479.49760871823!2d76.13696356326344!3d9.986499896319954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1775761966204!5m2!1sen!2sin" width="200" height="155" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="py-10 px-12">
+        <h1 class="pb-3 text-2xl">Contact Us</h1>
+        <ul>
+          <li class="text-justify pb-3"><i class="fa-solid fa-location-dot" style="color: rgb(255, 255, 255);"></i>  Mulavukad, Kochi, Ernakulam, Kerala 682504</li>
+          <li class="pb-3"><i class="fa-solid fa-phone" style="color: rgb(255, 255, 255);"></i>  +91 912 345 6785</li>
+          <li class="pb-3"><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i>  @RegaliaEvents</li>
+          <li class="pb-3"><i class="fa-regular fa-envelope" style="color: rgb(255, 255, 255);"></i>  queries@regalia.com</li>
+        </ul>
+      </div>
+
+      <div class="py-10 ps-15">
+        <h1 class="text-2xl pb-3">Quick Links</h1>
+        <ul class="">
+          <li class="">About US</li>
+          <li class="">Services</li>
+          <li class="">Our Weddings</li>
+          <li class="">Gallery</li>
+          <li class="">Testimonials</li>
+          <li class="">Contact Us</li>
+          <li class="">Blog</li>
+        </ul>
+      </div>
+
+      <div class="py-10">
+        <h1 class="text-2xl pb-3">Services</h1>
+        <ul class="">
+          <li class="">Wedding Venue Selection</li>
+          <li class="">Wedding Decorations</li>
+          <li class="">Wedding Hospitality Services</li>
+          <li class="">Wedding Transportation Services</li>
+          <li class="">Wedding Entertainment Services</li>
+          <li class="">Wedding Photography & Videography Services</li>
+          <li class="">Wedding Promotion</li>
+        </ul>
+      </div>
+    </div>
   </footer>
 </body>
 
