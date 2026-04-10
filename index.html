@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
     rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
   <style>
     .heroText h1 {
       font-family: "Playfair Display", serif;
@@ -20,31 +21,32 @@
 </head>
 
 <body>
-
+<!-- Hero section -->
   <section class="hero bg-[url(/MEDIA/foto-pettine-IfjHaIoAoqE-unsplash.jpg)] h-[80vh] bg-bottom bg-cover">
     <nav class="flex justify-between items-center w-full px-15 py-5 text-black">
       <div class="logo text-3xl font-black font-[Playfair Display]">Regalia</div>
       <ul class="flex justify-center items-center gap-5">
-        <li>Item1</li>
-        <li>Item2</li>
-        <li>Item3</li>
-        <li>Item4</li>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="./venue.html">VENUES</a></li>
+        <li><a href="#testimonial">TESTIMONIALS</a></li>
+        <li><a href="#services">SERVICES</a></li>
       </ul>
-      <button class="">Contact us</button>
+      <a href="./contact.html" class="font-medium cursor-pointer border rounded-full py-2 px-4 bg-black text-white">Contact us</a>
     </nav>
     <div class="heroText flex flex-col items-center h-90 justify-center">
       <h1 class="text-black text-5xl text-center font-">Make your dreams <br> come true</h1>
     </div>
   </section>
+<!-- Main quote and gallery 1-->
   <section class="flex flex-col justify-center items-center py-5">
-    <h1 class="text-4xl font- font-sans text-center px-50">Serving 500+ happy couples across 100+ destinations around
-      the world, since 2021</h1>
+    <h1 class="text-4xl font- font-sans text-center px-50">Serving 500+ happy couples across 100+ destinations in South India, since 2021</h1>
     <div class="grid grid-cols-3 gap-4 py-10">
-      <img src="./MEDIA/gallery1.jpg" class="w-[30vw]" alt="">
+      <img src="./MEDIA/shades-by-43-ykcXm_u84sg-unsplash.jpg" class="w-[30vw]" alt="">
       <img src="./MEDIA/gallery2.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/gallery3.jpg" class="w-[30vw]" alt="">
+      <img src="./MEDIA/picnu-Wf_qvHJcG5s-unsplash.jpg" class="w-[30vw]" alt="">
     </div>
   </section>
+<!-- stats -->
   <section class="grid grid-cols-4 gap 4 px-40">
     <div class="">
       <h1 class="text-center text-8xl py-2">5</h1>
@@ -63,6 +65,7 @@
         <p class="text-center">Customer Rating</p>
      </div>
   </section>
+<!-- contact buttons -->
   <section class="px-20 py-10">
     <h1 class="py-5 text-3xl text-center">Our team loves to travel and are excited about every event under our sleeve. Events are planned with the utmost care and our elite team makes sure things go smoothly</h1>
     <div class="pt-10 grid grid-cols-3 gap-10">
@@ -83,14 +86,16 @@
     </div>
     <h1 class="pt-10 text-3xl text-center">We would love to hear about your plans and we will do our best to bring it to fruition.</h1>
   </section>
+<!-- gallery2 -->
   <section class="recentEvents">
     <div class="grid grid-cols-3 gap-4 px-20 py-10">
-      <img src="./MEDIA/gallery4.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/gallery5.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/gallery6.jpg" class="w-[30vw]" alt="">
+      <img src="./MEDIA/kerala-dw-img19.jpg" class="w-[30vw]" alt="">
+      <img src="./MEDIA/malayali-kerala-wedding-ritual-couple-2-scaled.jpeg" class="w-[30vw]" alt="">
+      <img src="./MEDIA/gallery7.jpg" class="w-[30vw]" alt="">
     </div>
   </section>
-  <section class="testimonial px-20">
+<!-- testimonial -->
+  <section id="testimonial" class="testimonial px-20">
     <div class="testimonialHead flex items-center gap-10">
       <h1 class="text-3xl pb-10 font-medium">What our clients say</h1>
       <div class="h-1 w-250 bg-black mb-10"></div>
@@ -98,22 +103,23 @@
     <div class="grid grid-cols-2 gap-17">
       <div class="card flex justify-center gap-10">
         <div class="testimonialText">
-          <p class="text-justify">"We were terrified of the 'destination wedding tax' and the nightmare of coordinating 80 people flying into Tulum. Regalia didn't just find us a breathtaking cenote venue; they handled the airport shuttles, the hotel blocks, and even the local permit hurdles we didn't know existed. For the first time in a year, we actually slept the week before our wedding."</p>
-          <h5>— Maya & Chris | Married in Tulum, Mexico  </h5>
+          <p class="text-justify">"We always dreamed of a backwater wedding and Regalia made it effortless. From the traditional Kettuvallam (houseboat) processions to the stunning sunset ceremony overlooking the Vembanad Lake, every detail was culturally authentic yet perfectly organized. Our guests are still talking about the personalized Ayurvedic welcome kits and the seamless luxury fleet that moved everyone from Kochi to the resorts."</p>
+          <h5>— Arjun & Anjali | Married in Alleppey, Kerala</h5>
         </div>
-        <img src="./MEDIA/couple1.jpg" width="250px" class="border rounded-full" alt="">
+        <img src="./MEDIA/couple3.jpg" width="250px" class="border rounded-full" alt="">
       </div>
 
       <div class="card flex justify-center gap-10">
         <div class="testimonialText">
-          <p class="text-justify">"Being based in London and planning a wedding in the Amalfi Coast felt impossible until we used the 3D Recce feature. We 'walked' the terrace at sunset virtually, which helped us realize our original floral plan would block the view. That one insight saved us thousands in decor and a lot of heartache. It felt like we had a best friend on the ground the entire time."</p>
-          <h5>— David & Elena | Married in Ravello, Italy  </h5>
+          <p class="text-justify">"We wanted a wedding that felt like a hidden escape, and the cliffside venue in Varkala was beyond anything we could have imagined. What truly set Regalia apart was their local expertise; they managed to blend a high-end, modern aesthetic with traditional Kerala touches like a live percussion ensemble and a gourmet Sadya feast that our international guests loved. "</p>
+          <h5>— Rohan & Sophie | Married in Varkala, Kerala</h5>
         </div>
-        <img src="./MEDIA/couple2.jpg" width="250px" class="border rounded-full" alt="">
+        <img src="./MEDIA/kerala-dw-img5.jpg" width="250px" class="border rounded-full" alt="">
       </div>
     </div>
   </section>
-  <section class="services px-20">
+<!-- services -->
+  <section id="services" class="services px-20">
     <div class="flex justify-center items-center gap-5">
       <hr class="bg-black h-1 w-100 my-10">
       <h1 class="text-4xl font-medium text-center py-10">Our Services</h1>
@@ -127,26 +133,27 @@
           <img src="./MEDIA/service1.jpg" alt="">
           <h1 class="text-7xl font-bold absolute top-40 left-20 text-white ">Exotic <br> venues</h1>
         </div>
-        <p>We move beyond the standard ballroom to curate a portfolio of architectural marvels and untouched landscapes. Whether it’s a sustainable luxury camp in the dunes of AlUla, a private cliffside villa in Madeira, or a restored glasshouse in a tropical rainforest, our venues are selected for their "wow" factor and cultural soul. These aren't just backdrops; they are immersive environments that define the atmosphere of your entire celebration.</p>
+        <p class="py-4">We move beyond the standard ballroom to curate a portfolio of architectural marvels and untouched landscapes. Whether it’s a sustainable luxury camp in the dunes of AlUla, a private cliffside villa in Madeira, or a restored glasshouse in a tropical rainforest, our venues are selected for their "wow" factor and cultural soul. These aren't just backdrops; they are immersive environments that define the atmosphere of your entire celebration.</p>
       </div>
 
       <div class="cardService">
         <div class="relative">
-          <img src="./MEDIA/service2.jpg" alt="">
+          <img src="./MEDIA/thanuj-mathew-Q3lZutQqruo-unsplash.jpg" alt="">
           <h1 class="text-7xl font-bold absolute top-20 left-20 text-white ">Bespoke <br> Fleet</h1>
         </div>
-        <p>Transit is reimagined as an extension of the guest experience rather than a logistical hurdle. Our integrated fleet provides seamless, high-end mobility, from vintage convertible convoys for coastal drives to private catamaran transfers and luxury executive sprinters. By controlling the entire transport chain, we ensure that every guest arrival is punctual, stylish, and entirely friction-free, regardless of how remote the destination.</p>
+        <p class="py-4">Transit is reimagined as an extension of the guest experience rather than a logistical hurdle. Our integrated fleet provides seamless, high-end mobility, from vintage convertible convoys for coastal drives to private catamaran transfers and luxury executive sprinters. By controlling the entire transport chain, we ensure that every guest arrival is punctual, stylish, and entirely friction-free, regardless of how remote the destination.</p>
       </div>
 
       <div class="cardService">
         <div class="relative">
-          <img src="./MEDIA/service3.jpg" alt="">
-          <h1 class="text-7xl font-bold absolute top-60 left-10 text-white ">Hospitality <br> Service</h1>
+          <img src="./MEDIA/anuranj-mp-4JPav-oj83s-unsplash.jpg" alt="">
+          <h1 class="text-7xl font-bold absolute top-70 left-10 text-white ">Hospitality <br> Service</h1>
         </div>
-        <p>Our approach to service blends predictive technology with high-touch human care. We provide a dedicated "Experience Lead" for every event, overseeing a white-glove team trained to anticipate guest needs before they are voiced. From personalized welcome rituals and 24/7 digital concierge support to managing complex dietary programming with local chefs, our hospitality ensures that both the couple and their guests feel like pampered VIPs in a home away from home.</p>
+        <p class="py-4">We provide a dedicated "Experience Lead" for every event, overseeing a white-glove team trained to anticipate guest needs before they are voiced. From personalized welcome rituals and 24/7 digital concierge support to managing complex dietary programming with local chefs, our hospitality ensures that both the couple and their guests feel like pampered VIPs in a home away from home.</p>
       </div>
     </div>
   </section>
+<!-- footer -->
   <footer class="mt-10 bg-black text-white px-20">
     <div class="grid grid-cols-4">
       <div class="py-10">
