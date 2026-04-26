@@ -24,6 +24,7 @@
 
     * {
       scroll-behavior: smooth;
+      /* outline: 1px solid red; */
     }
   </style>
 </head>
@@ -35,7 +36,7 @@
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
         <!-- <img src="MEDIA/ee1.jpg" class="h-10 " alt="Flowbite Logo" /> -->
-        <span class="self-center text-3xl text-black font-bold whitespace-nowrap">Regalia</span>
+        <span class="self-center text-3xl text-black font-bold whitespace-nowrap hover:text-white duration-400">Regalia</span>
       </a>
       <button data-collapse-toggle="navbar-dropdown" type="button"
         class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-body rounded-base md:hidden hover:bg-neutral-secondary-soft hover:text-heading focus:outline-none focus:ring-2 focus:ring-neutral-tertiary"
@@ -51,19 +52,19 @@
           class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-default rounded-base md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 bg-[rgb(0,0,0,0.9)] md:bg-transparent ">
           <li>
             <a href="./index.html"
-              class="block py-2 px-3 text-white md:text-black font-normal text-xl rounded sm:bg-blue md:bg-transparent  md:p-0">HOME</a>
+              class="block py-2 px-3 text-white  md:text-black md:hover:text-white duration-400 font-normal text-xl rounded sm:bg-blue md:bg-transparent  md:p-0 ">HOME</a>
           </li>
           <li>
             <a href="#services"
-              class="block py-2 px-3 text-white md:text-black font-normal text-xl rounded md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">SERVICES</a>
+              class="block py-2 px-3 text-white md:text-black md:hover:text-white duration-400 font-normal text-xl rounded md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">SERVICES</a>
           </li>
           <li>
             <a href="./venue.html"
-              class="block py-2 px-3 text-white md:text-black font-normal text-xl rounded  md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">VENUES</a>
+              class="block py-2 px-3 text-white md:text-black md:hover:text-white duration-400 font-normal text-xl rounded  md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">VENUES</a>
           </li>
           <li>
             <a href="./about.html"
-              class="block py-2 px-3 text-white md:text-black font-normal text-xl rounded  md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">ABOUT</a>
+              class="block py-2 px-3 text-white md:text-black md:hover:text-white duration-400 font-normal text-xl rounded  md:hover:bg-transparent md:border-0 md:hover:text-fg-brand md:p-0 md:dark:hover:bg-transparent">ABOUT</a>
           </li>
           <li>
             <a href="./contact.html"
@@ -81,22 +82,22 @@
     <img src="./MEDIA/foto-pettine-IfjHaIoAoqE-unsplash.jpg" class="w-[100vw] h-[90vh] object-cover object-bottom"
       alt="">
     <div class="heroText absolute top-50 w-full h-full">
-      <h1 class="text-center text-7xl">Make your Dreams <br> Come True</h1>
+      <h1 class="text-center text-5xl sm:text-7xl">Make your Dreams <br> Come True</h1>
     </div>
   </section>
 
   <!-- Main quote and gallery 1-->
   <section class="flex flex-col justify-center items-center py-5">
-    <h1 class="text-4xl font- font-sans text-center px-50">Serving 500+ happy couples across 100+ destinations in South
+    <h1 class="text-4xl font- font-sans text-center px-10 md:px-50">Serving 500+ happy couples across 100+ destinations in South
       India, since 2021</h1>
-    <div class="grid grid-cols-3 gap-4 py-10">
-      <img src="./MEDIA/shades-by-43-ykcXm_u84sg-unsplash.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/gallery2.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/picnu-Wf_qvHJcG5s-unsplash.jpg" class="w-[30vw]" alt="">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 py-10">
+      <img src="./MEDIA/shades-by-43-ykcXm_u84sg-unsplash.jpg" class="lg:w-[30vw]" alt="">
+      <img src="./MEDIA/gallery2.jpg" class="lg:w-[30vw]" alt="">
+      <img src="./MEDIA/picnu-Wf_qvHJcG5s-unsplash.jpg" class="lg:w-[30vw]" alt="">
     </div>
   </section>
   <!-- stats -->
-  <section class="grid lg:grid-cols-4 md:grid-cols-2 gap 4 px-40">
+  <section class="grid lg:grid-cols-4 md:grid-cols-2 gap 4 px-0 md:px-40">
     <div class="">
       <h1 class="text-center text-8xl py-2">5</h1>
       <p class="text-center">Years of Service</p>
@@ -118,18 +119,18 @@
   <section class="px-20 py-10">
     <h1 class="py-5 text-3xl text-center">Our team loves to travel and are excited about every event under our sleeve.
       Events are planned with the utmost care and our elite team makes sure things go smoothly</h1>
-    <div class="pt-10 grid grid-cols-3 gap-10">
-      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#4FCE5D]">
+    <div class="pt-10 grid md:grid-cols-3 gap-10">
+      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#4FCE5D] hover:bg-[#16ac49] hover:text-white duration-400 cursor-pointer">
         <img src="./MEDIA/whatsapp-color-svgrepo-com.svg" width="50px" alt="">
         <span>Whatsapp</span>
       </div>
 
-      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#C71610]">
+      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#C71610] hover:bg-[#ae3b0e] hover:text-white duration-400 cursor-pointer">
         <img src="./MEDIA/gmail-icon-logo-svgrepo-com.svg" width="50px" alt="">
         <span>Gmail</span>
       </div>
 
-      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#E1306C]">
+      <div class="whatsapp flex items-center justify-center py-3 gap-6 rounded-xl border border-[#E1306C] hover:bg-[#ae0e60] hover:text-white duration-400 cursor-pointer">
         <img src="./MEDIA/instagram-1-svgrepo-com.svg" width="50px" alt="">
         <span>Instagram</span>
       </div>
@@ -139,21 +140,21 @@
   </section>
   <!-- gallery2 -->
   <section class="recentEvents">
-    <div class="grid grid-cols-3 gap-4 px-20 py-10">
-      <img src="./MEDIA/kerala-dw-img19.jpg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/malayali-kerala-wedding-ritual-couple-2-scaled.jpeg" class="w-[30vw]" alt="">
-      <img src="./MEDIA/gallery7.jpg" class="w-[30vw]" alt="">
+    <div class="grid md:grid-cols-3 gap-4 px-20 py-10">
+      <img src="./MEDIA/kerala-dw-img19.jpg" class="lg:w-[30vw]" alt="">
+      <img src="./MEDIA/malayali-kerala-wedding-ritual-couple-2-scaled.jpeg" class="md:w-[30vw]" alt="">
+      <img src="./MEDIA/gallery7.jpg" class="md:w-[30vw]" alt="">
     </div>
   </section>
   <!-- testimonial -->
   <section id="testimonial" class="testimonial px-20">
     <div class="testimonialHead flex items-center gap-10">
       <h1 class="text-3xl pb-10 font-medium">What our clients say</h1>
-      <div class="h-1 w-250 bg-black mb-10"></div>
+      <div class="hidden md:block h-1 w-70 lg:w-250  bg-black mb-10"></div>
     </div>
-    <div class="grid grid-cols-2 gap-17">
-      <div class="card flex justify-center gap-10">
-        <div class="testimonialText">
+    <div class="grid lg:grid-cols-2 gap-17">
+      <div class="card block md:flex lg:flex-row  justify-center gap-10">
+        <div class="testimonialText mb-10 md:mb-0">
           <p class="text-justify">"We always dreamed of a backwater wedding and Regalia made it effortless. From the
             traditional Kettuvallam (houseboat) processions to the stunning sunset ceremony overlooking the Vembanad
             Lake, every detail was culturally authentic yet perfectly organized. Our guests are still talking about the
@@ -161,11 +162,11 @@
             resorts."</p>
           <h5>— Arjun & Anjali | Married in Alleppey, Kerala</h5>
         </div>
-        <img src="./MEDIA/couple3.jpg" width="250px" class="border rounded-full" alt="">
+        <img src="./MEDIA/couple3.jpg" width="250px"  class="border rounded-full  md:heigth-auto" alt="">
       </div>
 
-      <div class="card flex justify-center gap-10">
-        <div class="testimonialText">
+      <div class="card block md:flex justify-center gap-10">
+        <div class="testimonialText mb-10 md:mb-0">
           <p class="text-justify">"We wanted a wedding that felt like a hidden escape, and the cliffside venue in
             Varkala was beyond anything we could have imagined. What truly set Regalia apart was their local expertise;
             they managed to blend a high-end, modern aesthetic with traditional Kerala touches like a live percussion
@@ -177,7 +178,7 @@
     </div>
   </section>
   <!-- services -->
-  <section id="services" class="services px-20">
+  <section id="services" class="services px-5 md:px-20">
     <div class="flex justify-center items-center gap-5">
       <hr class="bg-black h-1 w-100 my-10">
       <h1 class="text-4xl font-medium text-center py-10">Our Services</h1>
@@ -185,13 +186,13 @@
     </div>
 
     <!-- <p class="text-xl">We have well connected experts all over the world dedicated to crafting your perfect memorable wedding</p> -->
-    <div class="grid grid-cols-3 gap-10">
+    <div class="grid lg:grid-cols-3 gap-10">
       <div class="cardService">
         <div class="relative">
           <img src="./MEDIA/service1.jpg" alt="">
-          <h1 class="text-7xl font-bold absolute top-40 left-20 text-white ">Exotic <br> venues</h1>
+          <h1 class="text-5xl md:text-7xl font-bold absolute top-40 left-5 md:top-40 md:left-20 text-white ">Exotic <br> venues</h1>
         </div>
-        <p class="py-4">We move beyond the standard ballroom to curate a portfolio of architectural marvels and
+        <p class="py-4 max-md:hidden">We move beyond the standard ballroom to curate a portfolio of architectural marvels and
           untouched landscapes. Whether it’s a sustainable luxury camp in the dunes of AlUla, a private cliffside villa
           in Madeira, or a restored glasshouse in a tropical rainforest, our venues are selected for their "wow" factor
           and cultural soul. These aren't just backdrops; they are immersive environments that define the atmosphere of
@@ -201,9 +202,9 @@
       <div class="cardService">
         <div class="relative">
           <img src="./MEDIA/thanuj-mathew-Q3lZutQqruo-unsplash.jpg" alt="">
-          <h1 class="text-7xl font-bold absolute top-20 left-20 text-white ">Bespoke <br> Fleet</h1>
+          <h1 class="text-5xl md:text-7xl font-bold absolute top-20 left-2 md:top-20 md:left-20 text-white ">Bespoke <br> Fleet</h1>
         </div>
-        <p class="py-4">Transit is reimagined as an extension of the guest experience rather than a logistical hurdle.
+        <p class="py-4 max-md:hidden">Transit is reimagined as an extension of the guest experience rather than a logistical hurdle.
           Our integrated fleet provides seamless, high-end mobility, from vintage convertible convoys for coastal drives
           to private catamaran transfers and luxury executive sprinters. By controlling the entire transport chain, we
           ensure that every guest arrival is punctual, stylish, and entirely friction-free, regardless of how remote the
@@ -213,9 +214,9 @@
       <div class="cardService">
         <div class="relative">
           <img src="./MEDIA/anuranj-mp-4JPav-oj83s-unsplash.jpg" alt="">
-          <h1 class="text-7xl font-bold absolute top-70 left-10 text-white ">Hospitality <br> Service</h1>
+          <h1 class="text-5xl md:text-7xl font-bold absolute top-20 left-2 md:top-70 md:left-10 text-white ">Hospitality <br> Service</h1>
         </div>
-        <p class="py-4">We provide a dedicated "Experience Lead" for every event, overseeing a white-glove team trained
+        <p class="py-4 max-md:hidden">We provide a dedicated "Experience Lead" for every event, overseeing a white-glove team trained
           to anticipate guest needs before they are voiced. From personalized welcome rituals and 24/7 digital concierge
           support to managing complex dietary programming with local chefs, our hospitality ensures that both the couple
           and their guests feel like pampered VIPs in a home away from home.</p>
@@ -223,42 +224,42 @@
     </div>
   </section>
   <!-- footer -->
-  <footer class="mt-10 bg-black text-white px-20">
-    <div class="grid grid-cols-4">
+  <footer class="mt-10 bg-black text-white px-5 md:px-20">
+    <div class="grid md:grid-cols-3 lg:grid-cols-4">
       <div class="py-10">
-        <h1 class="text-2xl">Regalia</h1>
-        <h2 class="py-3">Event Management</h2>
-        <iframe
+        <h1 class="text-2xl max-md:text-center">Regalia</h1>
+        <h2 class="py-3 max-md:text-center">Event Management</h2>
+        <iframe class="max-md:mx-auto"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d251479.49760871823!2d76.13696356326344!3d9.986499896319954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d514abec6bf%3A0xbd582caa5844192!2sKochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1775761966204!5m2!1sen!2sin"
           width="200" height="155" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
-      <div class="py-10 px-12">
-        <h1 class="pb-3 text-2xl">Contact Us</h1>
-        <ul>
+      <div class="py-10 md:px-12">
+        <h1 class="pb-3 text-2xl max-md:text-center">Contact Us</h1>
+        <ul class="ps-20 md:ps-0">
           <li class="text-justify pb-3"><i class="fa-solid fa-location-dot" style="color: rgb(255, 255, 255);"></i>
             Mulavukad, Kochi, Ernakulam, Kerala 682504</li>
-          <li class="pb-3"><i class="fa-solid fa-phone" style="color: rgb(255, 255, 255);"></i> +91 912 345 6785</li>
+          <li class="pb-3"><i class="fa-solid fa-phone " style="color: rgb(255, 255, 255);"></i> +91 912 345 6785</li>
           <li class="pb-3"><i class="fa-brands fa-instagram" style="color: rgb(255, 255, 255);"></i> @RegaliaEvents</li>
           <li class="pb-3"><i class="fa-regular fa-envelope" style="color: rgb(255, 255, 255);"></i> queries@regalia.com
           </li>
         </ul>
       </div>
 
-      <div class="py-10 ps-15">
+      <div class="py-10 ps-10 max-lg:hidden">
         <h1 class="text-2xl pb-3">Quick Links</h1>
         <ul class="">
-          <li class="">About US</li>
-          <li class="">Services</li>
+          <li class=""><a href="./about.html">About US</a></li>
+          <li class=""><a href="./index.html#services">Services</a></li>
           <li class="">Our Weddings</li>
           <li class="">Gallery</li>
-          <li class="">Testimonials</li>
-          <li class="">Contact Us</li>
+          <li class=""><a href="./index.html#testimonial">Testimonials</a></li>
+          <li class=""><a href="./contact.html">Contact Us</a></li>
           <li class="">Blog</li>
         </ul>
       </div>
 
-      <div class="py-10">
+      <div class="py-10 max-md:hidden">
         <h1 class="text-2xl pb-3">Services</h1>
         <ul class="">
           <li class="">Wedding Venue Selection</li>
@@ -271,6 +272,7 @@
         </ul>
       </div>
     </div>
+    <p class="text-center pb-5"><i class="fa-regular fa-copyright "></i> Copyright 2026 Regalia LLC, All Rights Reserved</p>
   </footer>
 </body>
 
